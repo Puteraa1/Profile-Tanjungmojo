@@ -1,0 +1,79 @@
+#visi-misi {
+  background-color: rgb(255, 255, 255);
+}
+
+#visi-misi h2 {
+  letter-spacing: 1px;
+}
+
+#deskripsi-perusahaan {
+  background-color: rgb(255, 255, 255);
+}
+
+#deskripsi-perusahaan img {
+  max-height: 360px;
+  object-fit: cover;
+}
+
+.hero-section {
+  min-height: 100vh;
+  background: url("assets/gambar3.jpg") center / cover no-repeat;
+  position: relative;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+}
+
+.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.contact-box {
+  position: relative;
+  min-height: 220px;
+  border-radius: 14px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.contact-box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("assets/gambar3.jpg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3;
+  z-index: 0;
+}
+
+.contact-box .content {
+  position: relative;
+  z-index: 1;
+}
+
+.layanan-section {
+  position: relative;
+  padding: 100px 0;
+  background-image: url("assets/gambar3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.layanan-section .overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.7); /* merah gelap transparan */
+}
+
+.layanan-section h4,
+.layanan-section h5,
+.layanan-section p {
+  color: #fff;
+}
